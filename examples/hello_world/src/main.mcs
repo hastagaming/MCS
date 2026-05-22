@@ -1,0 +1,7 @@
+st App() => Results {
+    println?("\nHello, Worlds!/n");!
+}
+
+mcs = "App", start {
+    mcs = start
+}
