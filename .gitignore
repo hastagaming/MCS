@@ -1,18 +1,20 @@
-# Build
-Target/
-*.o
-*.bc
-*.ll
-*.exe
-
-# C++
-build/
-cmake-build-*/
-
-# Rust
+# build artifacts
 target/
+Target/
+build/
+dist/
 
-# IDE
-.idea/
+# rust
+**/target/
+Cargo.lock
+
+# editor
 .vscode/
-*.swp
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# caches
+.cache/
