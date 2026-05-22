@@ -1,0 +1,18 @@
+# Build
+Target/
+*.o
+*.bc
+*.ll
+*.exe
+
+# C++
+build/
+cmake-build-*/
+
+# Rust
+target/
+
+# IDE
+.idea/
+.vscode/
+*.swp
